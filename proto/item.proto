@@ -1,0 +1,16 @@
+package msg;
+
+message MQItemList
+{
+}
+
+message MItem {
+	required uint32 id = 1;
+	required uint32 level = 2;
+	optional string data = 3;
+}
+
+message MRItemList
+{
+	repeated MItem item_list = 1;
+}

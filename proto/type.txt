@@ -1,0 +1,17 @@
+#Login = 1
+MQLoginChallenge
+MRLoginChallenge
+MQLoginVerify
+MRLoginVerify
+MRLoginResult
+
+#Role = 2
+MRRoleSimple
+
+#Item = 3
+MQItemList
+MRItemList
+
+#Echo = 4
+MQEcho
+MREcho

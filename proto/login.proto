@@ -1,0 +1,24 @@
+package msg;
+
+message MQLoginChallenge
+{
+	required string name = 1;
+	required bytes bytes_A = 2;
+}
+
+message MRLoginChallenge {
+    required bytes salt = 1;
+    required bytes bytes_B = 2;
+}
+
+message MQLoginVerify {
+    required bytes bytes_M = 1;
+}
+
+message MRLoginVerify {
+    required bytes bytes_HAMK = 1;
+}
+
+message MRLoginResult {
+    required int32 result = 1;
+}

@@ -1,0 +1,9 @@
+package msg;
+
+message MQEcho {
+    required string data = 1;
+};
+
+message MREcho {
+    required string data = 1;
+};
