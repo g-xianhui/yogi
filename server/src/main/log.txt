@@ -1,0 +1,26 @@
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/yogi.go:28: run begin
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:85: sys.Run
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:107: load_sys_info
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:117: platform:test
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:117: open_time:1413391356
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:122: time now:1413395465
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:89: data[k]:platform, [v]:test
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:89: data[k]:open_time, [v]:1413395465
+2014/10/16 01:51:05 /home/agan/programming/go/yogi/server/src/main/sysmgr.go:64: sysinfo save end
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/role.go:65: RoleLogin
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/role.go:75: login req: name[agan], bytes_A: [40 129 121 170 99 217 154 22 55 165 38 92 211 130 198 203 188 130 233 204 172 170 24 117 77 239 129 151 90 41 146 236 28 50 124 159 101 93 26 110 252 162 18 181 155 141 191 101 96 242 19 248 11 227 63 210 178 37 197 21 219 34 25 237 95 56 230 245 204 240 111 122 73 203 153 207 3 166 79 186 56 187 235 53 118 110 120 251 221 187 125 155 86 110 167 207 104 89 1 247 3 160 90 236 191 208 239 224 13 184 121 190 199 244 236 237 194 97 233 19 50 189 183 203 128 177 209 202]
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/role.go:91: salt: [155 198 6 152 5 124 115 122 20 143 67 227 154 251 59 90 189 11 29 236]
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/role.go:102: server computes key[32]: [71 178 93 45 29 237 221 123 49 235 86 25 78 123 37 108 44 119 69 167 1 51 175 24 123 107 106 27 87 112 232 166]
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/role.go:118: verify success: 1
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/user_mgr.go:11: SLoadRole[1]
+2014/10/16 01:51:14 /home/agan/programming/go/yogi/server/src/main/role.go:36: LoadSimple: 1
+2014/10/16 01:51:15 /home/agan/programming/go/yogi/server/src/main/net.go:49: user[1] receive 50 bytes
+2014/10/16 01:51:15 /home/agan/programming/go/yogi/server/src/main/net.go:76: user: 1, msg_len: 48, msg_type: 262145, seq_num: 2596996163
+2014/10/16 01:51:15 /home/agan/programming/go/yogi/server/src/main/echo.go:9: EchoHandler
+2014/10/16 01:51:15 /home/agan/programming/go/yogi/server/src/main/echo.go:17: user: 1, Echo: hello
+2014/10/16 01:51:16 /home/agan/programming/go/yogi/server/src/main/net.go:49: user[1] receive 50 bytes
+2014/10/16 01:51:16 /home/agan/programming/go/yogi/server/src/main/net.go:76: user: 1, msg_len: 48, msg_type: 262145, seq_num: 2596996164
+2014/10/16 01:51:16 /home/agan/programming/go/yogi/server/src/main/echo.go:9: EchoHandler
+2014/10/16 01:51:16 /home/agan/programming/go/yogi/server/src/main/echo.go:17: user: 1, Echo: afasfa
+2014/10/16 01:51:17 /home/agan/programming/go/yogi/server/src/main/net.go:45: EOF
+2014/10/16 01:51:17 /home/agan/programming/go/yogi/server/src/main/role.go:142: user[1] quit
